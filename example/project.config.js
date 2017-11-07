@@ -22,7 +22,6 @@ module.exports = {
     'react-hot-loader'
   ],
   alias        : {
-    containers                : path.resolve(__dirname, 'src/containers'),
-    'kenote-layout'           : path.resolve(__dirname, '../src')
+    containers                : path.resolve(__dirname, 'src/containers')
   }
 }
