@@ -35,6 +35,10 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+example/dist/
+example/dll/
+example/__tests__/__snapshots__
+__tests__/__snapshots__
 
 # Typescript v1 declaration files
 typings/

@@ -1,0 +1,40 @@
+{
+  "name": "kenote-react-component",
+  "version": "1.0.0",
+  "description": "react component for kenote",
+  "main": "lib/index.js",
+  "repository": "https://github.com/thondery/kenote-react-component.git",
+  "author": "thondery <thondery@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^21.2.1",
+    "react": "^16.0.0",
+    "react-test-renderer": "^16.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=15.6.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "<rootDir>/example/"
+    ]
+  }
+}
