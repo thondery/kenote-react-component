@@ -3,7 +3,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import KenoteLayout from '../src'
 
-test('test => KenoteLayout', () => {
+test('component => KenoteLayout', () => {
   const component = renderer.create(
     <KenoteLayout name="test" >
      React test

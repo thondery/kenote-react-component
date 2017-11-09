@@ -1,6 +1,6 @@
 # kenote-react-component
 
-react component for kenote
+React Component for Kenote
 
 [![Version Code][version-image]][version-url]
 [![Build Status][travis-image]][travis-url]
@@ -45,3 +45,7 @@ $ yarn  # Install project dependencies (or `npm install`)
 ├── src
 └── .babelrc
 ```
+
+## License
+
+this repo is released under the [MIT License](https://github.com/thondery/kenote-react-component/blob/master/LICENSE).
